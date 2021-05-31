@@ -1,0 +1,27 @@
+/* Responsive layout */
+
+@media screen and (max-width: 600px) {
+	html {
+		background: url(../assets/img/mobile-background.jpg) no-repeat center center fixed;
+	}
+	#autocomplete-container {
+		width: 300px;
+		margin: 8% auto;
+	}
+	#autocomplete-input {
+		width: 100%;
+		padding: 20px 15px;
+		border: cornflowerblue;
+		outline: none;
+		font-size: 20px;
+	}
+	.download {
+		background-color: #ffffffa6;
+	}
+	.download-h2 {
+		color: #3a868c;
+		text-align: center;
+		font-weight: 600;
+		font-size: 1rem;
+	}
+}
